@@ -1,0 +1,21 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "del-cli ./build/*",
+    "build": "npm run clean && tsc --watch --preserveWatchOutput"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "local-api": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "del-cli": "^4.0.1",
+    "typescript": "^4.5.2"
+  }
+}
